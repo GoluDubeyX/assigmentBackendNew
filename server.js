@@ -14,7 +14,7 @@ app.use(helmet());
 const allowedOrigins = [
   'http://localhost:3000',
   'http://127.0.0.1:5500',
-  'https://assigmentfrontendnew.vercel.app'
+  'https://assigmentfrontendnew.vercel.app/?sortBy=newest&page=1'
 ];
 
 app.use(cors({
